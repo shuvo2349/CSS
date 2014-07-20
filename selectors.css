@@ -1,0 +1,20 @@
+*{
+background-color: grey;
+}
+
+/* select all the elements that have "role" attribute 
+and apply a rule to make the font color yellow
+*/
+
+div[role]{
+	color: #EEEEEE
+}
+
+/* select all div elemnts that have "role" attribute 
+that has a value 'main'
+and apply a rule to make the font color black
+*/
+
+div[role="main"]{
+	background-color: black
+}
