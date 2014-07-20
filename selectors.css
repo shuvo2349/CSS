@@ -18,3 +18,10 @@ and apply a rule to make the font color black
 div[role="main"]{
 	background-color: black
 }
+
+/* select all the li elements that are second child 
+of their parents*/
+
+li:nth-child(2){
+	background-color: red
+}
