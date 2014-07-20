@@ -7,7 +7,7 @@ and apply a rule to make the font color yellow
 */
 
 div[role]{
-	color: #EEEEEE
+	color: #EEEEEE;
 }
 
 /* select all div elemnts that have "role" attribute 
@@ -16,12 +16,31 @@ and apply a rule to make the font color black
 */
 
 div[role="main"]{
-	background-color: black
+	background-color: black;
 }
 
 /* select all the li elements that are second child 
 of their parents*/
 
 li:nth-child(2){
-	background-color: red
+	background-color: red;
+}
+
+a:nth-child(2n+1){
+	background-color: green;
+}
+
+/* select all the a that are child of footer*/
+
+footer a {
+	background-color: yellow;
+}
+
+#zen-summary{
+	background-color: red;
+}
+
+.danger{
+	color: red;
+	font-size: 16;
 }
